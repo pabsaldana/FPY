@@ -24,3 +24,4 @@ with open('archivocsv.csv','r') as archivo:
         comuna=fila['Comuna']
         estado_edad= "Mayor de edad "if edad>=18 else "Menor edad"
         print(f"{nombre} tiene {edad} años, es {estado_edad} y vive en {comuna}")
+        #hola mundo
